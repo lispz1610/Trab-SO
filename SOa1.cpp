@@ -1,6 +1,5 @@
 #include <iostream>
 #include <thread>
-#include <vector>
 
 int main() {
     const int ITERACOES = 1'000'000;

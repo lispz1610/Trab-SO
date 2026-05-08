@@ -68,7 +68,7 @@ int main() {
     
     std::vector<std::thread> processos;
 
-    for (int i = 1; i <= 5; ++i) {
+    for (int i = 1; i <= 10; ++i) {
         processos.emplace_back([&spooler](int id) { spooler.enviar(id, 2); }, i);
     }
 

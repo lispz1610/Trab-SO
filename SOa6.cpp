@@ -12,9 +12,9 @@ int main() {
         std::cout << "[ERRO] Carro " << id << " (" << direcao << ") SAINDO da ponte.\n";
     };
 
-    for (int i = 1; i <= 5; ++i) {
+    for (int i = 1; i <= 6; ++i) {
         carros.emplace_back(atravessar_ponte, i, "ESQ -> DIR");
-        carros.emplace_back(atravessar_ponte, i + 5, "DIR -> ESQ");
+        carros.emplace_back(atravessar_ponte, i + 6, "DIR -> ESQ");
     }
 
     for (auto& t : carros) t.join();

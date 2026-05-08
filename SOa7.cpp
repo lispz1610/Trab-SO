@@ -17,7 +17,7 @@ int main() {
             vagas_ocupadas++;
             std::cout << "[ERRO] Carro " << id << " ENTROU. Ocupacao: " << vagas_ocupadas << "/" << CAPACIDADE_MAXIMA << "\n";
             
-            std::this_thread::sleep_for(std::chrono::milliseconds(200));
+            std::this_thread::sleep_for(std::chrono::milliseconds(300));
             
             vagas_ocupadas--;
             std::cout << "Carro " << id << " SAIU. Ocupacao: " << vagas_ocupadas << "/" << CAPACIDADE_MAXIMA << "\n";

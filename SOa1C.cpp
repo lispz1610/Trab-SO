@@ -19,7 +19,7 @@ int main() {
     t1.join();
     t2.join();
 
-    std::cout << "Valor final: ";
+    std::cout << "Valor final: " << contador.load() << "\n";
 
     return 0;
 }
