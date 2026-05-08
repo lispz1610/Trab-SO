@@ -57,9 +57,7 @@ public:
     }
 };
 
-int main() {
-    std::cout << "--- Iniciando simulacao CORRIGIDA (Orientada a Objetos) ---\n";
-    
+int main() {    
     Ponte ponte;
     std::vector<std::thread> frota;
 

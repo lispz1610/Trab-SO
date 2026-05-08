@@ -46,9 +46,7 @@ public:
     }
 };
 
-int main() {
-    std::cout << "--- Iniciando simulacao CORRIGIDA (Orientada a Objetos) ---\n";
-    
+int main() {    
     Estacionamento est(3); // Instancia o estacionamento com 3 vagas
     std::vector<std::thread> carros;
 
